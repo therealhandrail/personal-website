@@ -1,0 +1,75 @@
+.container{
+    background-image: url(https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 100vh;
+}
+.navBar{
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px black;
+}
+.navBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #20063B;
+    font-family: Rubik Wet Paint;
+} 
+.navBar li {
+    float: left;
+} 
+.navBar li a {
+    display: block;
+    color: #CC3363;
+    text-align: center;
+    padding: 25px 16px;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.navBar li a:hover {
+    color: #62C370;
+    transition: color .5s;
+}
+.welcomeSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+section{
+    max-width: fit-content;
+    background-color: #C2F9BB;
+    padding: 20px 20px;
+    border-radius: 20px;
+    font-family: Encode Sans Condensed;
+    display: block;
+    text-align: center;
+    color: #20063B;
+    box-shadow: 10px 10px 0px #9AD1D4;
+}
+h1{
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+    font-size: 3rem;
+}
+header{
+    font-size: 2rem;
+}
+.imageBox{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img{
+    max-width: 600px;
+    margin-top: 40px;
+    padding-right: 30px;
+}
